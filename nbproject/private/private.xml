@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="dwProyectoIntegrador">
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/src/AppBundle/Entity/categorias.php</file>
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/app/AppKernel.php</file>
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/app/config/services.yml</file>
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/composer.json</file>
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/src/AppBundle/Entity/users.php</file>
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/src/AppBundle/DataFixtures/InitialFixture.php</file>
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/src/AppBundle/Entity/poemas.php</file>
+            <file>file:/C:/workspace_symfony/Proyecto_Symfony/src/AppBundle/Entity/roles.php</file>
+        </group>
+    </open-files>
+</project-private>

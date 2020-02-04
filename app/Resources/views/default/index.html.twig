@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container-fluid alert alert-dark alert-dismissible fade show pt-0 pb-2"  role="alert" >
+        <div class="row">
+           <div class="col-10 mx-auto">
+               <h2 class="alert-heading display-2">Los mejores Poemas</h2>
+               <hr>
+               <p class="mb-0 lead">Pagina de Poemas</p>
+           </div>
+        </div>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <h6 class="lead">Aqui puedes leer los mejores poemas.</h6>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <div class="col-8 mx-auto ">
+                {% for poema in poemas %}
+                    <div class="media py-2">
+                       
+                        <div class="media-body">
+                            <div class="mx-4 d-flex justify-content-between ">
+                                    <h4 class="p-0"> {{ poema.getUser() }}
+                                        <small ><i > {{ offer.getDActivationDate() | date('d-m-Y') }}</i></small>
+                                    </h4>
+                                    <a href="{{ path('offers_show', {'id': offer.getId()}) }}" class="btn btn-outline-primary">More details...</a>
+                            </div>
+                            <div class="px-2">
+                                <p class="card-body text-muted mb-0"> {{ poema.getTexto()|raw }} </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
